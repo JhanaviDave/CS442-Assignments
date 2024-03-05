@@ -1,0 +1,12 @@
+dont edit the existing decks in json. edit only newly added deck names and content.
+
+maybe use diff. json for new cards?
+
+list<map> translate to db - json file
+
+2 step process - take data, convert to model object, then translate to json
+
+take card data, move to sql queries for persistence and then connect to json - will make things easy for deck loading
+
+sqflite - doesnt work for windows. use sqflite (some other)
+
